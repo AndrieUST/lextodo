@@ -106,8 +106,10 @@
 }
 
 .Popup {
-  height: 18.75em;
-  width: 31.25em;
+  max-height: 18.75em;
+  max-width: 31.25em;
+  width: 80%;
+  box-sizing: inherit;
   box-sizing: border-box;
   position: fixed;
   top: 50%;
@@ -153,7 +155,7 @@
 }
 
 .newTaskForm input {
-  height: 100%;
+  width: 100%;
   flex: 1;
   color: #000000;
   background: #F8FFFE;
@@ -174,7 +176,9 @@
 }
 
 .newTaskForm button {
-  height: 100%;
+  max-width: 12em;
+  max-height: 4em;
+  width: 100%;
   padding: 0 16px;
   background: #FF7F4D;
   color: #fff;
@@ -182,6 +186,7 @@
   border-radius: 8px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   font-weight: 700;
   font-size: 14px;

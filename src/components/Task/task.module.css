@@ -102,9 +102,10 @@
 }
 
 .Popup {
-  height: 18.75em;
-  width: 31.25em;
-  box-sizing: border-box;
+  max-height: 18.75em;
+  max-width: 31.25em;
+  width: 80%;
+  box-sizing: inherit;
   position: fixed;
   top: 50%;
   left: 50%;
