@@ -40,7 +40,7 @@
 }
 
 .createTaskBtn {
-  height: 3.75rem;
+  height: 3.75em;
   padding: 0 16px;
   background: #1E6F9F;
   color: #fff;
@@ -54,7 +54,7 @@
 
 .yesBtn {
   position: relative;
-  height: 3.125rem;
+  height: 3.125em;
   padding: 0px 35px;
   background: #b91d1d;
   color: #fff;
@@ -75,7 +75,7 @@
 
 .noBtn {
   position: relative;
-  height: 3.125rem;
+  height: 3.125em;
   padding: 0px 35px;
   background: #FF7F4D;
   color: #fff;
@@ -102,33 +102,33 @@
 }
 
 .Popup {
-  height: 18.75rem;
-  width: 31.25rem;
+  height: 18.75em;
+  width: 31.25em;
   box-sizing: border-box;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: -2rem;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
+  margin-top: -2em;
+  padding: 1.5em;
+  border-radius: 0.5em;
   background-color: #F8FFFE;
   color: #5E1B89;
   animation: fadeIn 0.3s ease-out;
 }
 
 .Title {
-  margin-top: -0.375rem;
-  margin-bottom: 0.25rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  margin-top: -0.375em;
+  margin-bottom: 0.25em;
+  font-size: 1.125em;
+  line-height: 1.75em;
   letter-spacing: -0.0025em;
   font-weight: 500;
 }
 
 .Description {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1em;
+  line-height: 1.5em;
   color: var(--color-gray-600);
 }
 
