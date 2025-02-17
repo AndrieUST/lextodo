@@ -59,7 +59,7 @@
 }
 
 .createTaskBtn {
-  height: 60px;
+  height: 3.125rem;
   padding: 0 16px;
   background: #FF7F4D;
   color: #fff;
@@ -79,7 +79,7 @@
 
 .closeBtn {
   position: relative;
-  height: 50px;
+  height: 3.125rem;
   padding: 0px 35px;
   background: #FF7F4D;
   color: #fff;
@@ -106,8 +106,8 @@
 }
 
 .Popup {
-  height: 300px;
-  width: 500px;
+  height: 18.75rem;
+  width: 31.25rem;
   box-sizing: border-box;
   position: fixed;
   top: 50%;
